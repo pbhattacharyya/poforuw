@@ -1,0 +1,337 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+ @import url('https://rsms.me/inter/inter-ui.css');
+ html { font-family: 'Inter UI', sans-serif; }
+ @supports (font-variation-settings: normal) {
+   html { font-family: 'Inter UI var alt', sans-serif; }
+ }
+ 
+ body {
+  font-family: 'Inter UI', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #565b61;
+  background-color: #F9f9f9;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Crimson Text', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: #4b2e83;
+}
+
+h4 {
+  font-size: 1.4rem;
+  padding-bottom: 0.5em;
+}
+
+h5 {
+  font-size: 1.7rem;
+  padding-bottom: 0.1em;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.65em;
+}
+
+.subheading {
+  font-weight: 500;
+  font-family: 'Inter UI', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #4b2e83 !important;
+}
+
+.text-primary {
+  color: #4b2e83 !important;
+}
+
+a {
+  color: #5725b9;
+  transition: 0.3s;
+}
+
+a:hover, a:focus, a:active {
+  color: #4b2e83;
+  transition: 0.3s;
+}
+
+a.work-title {
+  font-size: 2em;
+  line-height: 1.4em;
+  margin-right: 0.5em;
+  transition: 0.4s;
+  color: #4b2e83;
+}
+
+
+a.work-title:hover {
+  color: #7c3bff; 
+}
+
+a.type1 {
+  font-family: 'Yeseva One', cursive;
+}
+
+
+a.type2 {
+  
+font-family: 'Black Ops One', cursive;
+}
+
+
+a.type3 {
+
+font-family: 'Limelight', cursive;
+
+}
+
+
+a.type4 {
+font-family: 'Averia Serif Libre', cursive;
+}
+
+a.type5 {
+  font-family: 'Audiowide', cursive;
+  }
+
+  a.type6 {
+    font-family: 'Poller One', cursive;
+    }
+  
+    span.number-project {
+      font-family: 'Share Tech Mono', monospace;
+      color: #767676;
+    }
+
+
+    a#side-bar {
+      font-family: 'Share Tech Mono', monospace; 
+      font-weight: 600; 
+      letter-spacing: 0.1em;
+    }
+
+    /* button.button-download {
+      color: #4b2e83;
+      border: solid 2px #4b2e83;
+    }
+
+    button.button-download:hover {
+      color: #ffffff;
+    background-color: #4b2e83;
+    border-color: #4b2e83;
+    }
+
+    button.button-download:active {
+      outline: none;
+      color: #ffffff;
+    background-color: #4b2e83;
+    border-color: #4b2e83;
+    }
+
+
+    
+ */
+
+
+    button.button-download {
+      color: #4b2e83;
+      border: solid 2px #4b2e83;
+    }
+
+    button.button-download.focus,
+    button.button-download:focus {
+      color: #ffffff;
+      background-color: #4b2e83 !important;
+      border-color: #4b2e83 !important;
+      outline: none;
+      box-shadow: none;
+    }
+    button.button-download:hover {
+      color: #ffffff;
+      background-color: #4b2e83 !important;
+      border-color: #4b2e83 !important;
+      outline: none;
+      box-shadow: none;
+    }
+    button.button-download.active,
+    button.button-download:active {
+      color: #ffffff;
+      background-color: #4b2e83 !important;
+      border-color: #4b2e83 !important;
+      outline: none;
+    }
+    button.button-download.active.focus,
+    button.button-download.active:focus,
+    button.button-download.active:hover,
+    button.button-download:active.focus,
+    button.button-download:active:focus,
+    button.button-download:active:hover {
+      color: #ffffff;
+      background-color: #4b2e83 !important;
+      border-color: #4b2e83 !important;
+      outline: none;
+      box-shadow: none;
+    }
+
+    div.background-style {
+      height:100vh;
+      z-index: -1000;
+      width: 100vw;
+      text-align: justify;
+      position: fixed;
+      color: #f2f2f2;
+      font-size: 5px;
+      line-height: 6px;
+      font-family: 'Inter UI', sans-serif;
+      top:0px;
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+    }
