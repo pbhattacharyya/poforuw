@@ -238,7 +238,7 @@ a:hover, a:focus, a:active {
 a.work-title {
   font-size: 2em;
   line-height: 1.4em;
-  margin-right: 0.5em;
+  margin-right: 0.1em;
   transition: 0.4s;
   color: #4b2e83;
 }
