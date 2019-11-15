@@ -99,13 +99,15 @@ p.headline {
 
 p.page-subheading {
 
-  font-family: 'Crimson Text', 'CrimsonPro', serif;
+  font-family: 'Crimson Pro', serif;
   color: #000000;
-  font-weight: 1000;
+  font-weight: 500;
   font-size: 24px;
+  font-style: normal;
   line-height: 28px;
   margin-top: 2.5em;
   margin-bottom: 1.5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -120,9 +122,10 @@ p.page-body {
 }
 
 p.project-heading {
-  font-family: 'Crimson Text', 'CrimsonPro', serif;
+  font-family: 'Crimson Pro', serif;
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 500;
+  font-style: normal;
   line-height: 1.2em;
   transform: translate(0, -0.3em);
   padding-bottom: 1em;
@@ -141,9 +144,11 @@ p.twentyprojects-large {
 }
 
 p.quote {
-  font-family: 'Crimson Text', 'CrimsonPro', serif;
+  font-family: 'Crimson Pro', serif;
   font-size: 1.5em;
   margin: 1em;
+  font-weight: 400;
+  font-style: normal;
   color: #30307E;
  }
 
